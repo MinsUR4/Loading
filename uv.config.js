@@ -5,6 +5,6 @@ self.__uv$config = {
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'https://cdn.jsdelivr.net/gh/MinsUR4/Loading@main/uv.handler.js',
     bundle: 'https://cdn.jsdelivr.net/gh/MinsUR4/Loading@main/uv.bundle.js',
-    config: ''https://cdn.jsdelivr.net/gh/MinsUR4/Interstellar@main/uv.config.js',
+    config: 'https://cdn.jsdelivr.net/gh/MinsUR4/Interstellar@main/uv.config.js',
     sw: 'https://cdn.jsdelivr.net/gh/MinsUR4/Interstellar@main/uv.sw.js',
 };
