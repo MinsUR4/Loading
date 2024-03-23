@@ -1,9 +1,8 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <Module>
   <ModulePrefs title="Math is Fun" />
   <Content type="html">
     <![CDATA[
-      
 <!DOCTYPE html>
 <html lang="en"><meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
@@ -18,129 +17,129 @@
 
 <style type="text/css">
 
-	#whi {display: inherit;}
-	#wlo {display: none;}
+    #whi {display: inherit;}
+    #wlo {display: none;}
 
 @media (max-width: 690px) {   
-	#whi {display: none;}
-	#wlo {display: inherit;}
+    #whi {display: none;}
+    #wlo {display: inherit;}
 }
 
 .boxa {
-	text-align: center;
-	display: inline-block;
-	vertical-align: top;
-	background: linear-gradient(to bottom right, rgba(0,0,150,0.1) 0%, rgba(0,0,150,0) 100%); 
-	border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    background: linear-gradient(to bottom right, rgba(0,0,150,0.1) 0%, rgba(0,0,150,0) 100%); 
+    border-radius: 8px;
 }
 
 .boxb {
-	display: inline-block;
-	width: 140px;
-	font-size: 18px  !important;
-	font-weight: normal  !important;
-	padding: 8px 0px 8px 0px  !important;
-	margin: 3px;
+    display: inline-block;
+    width: 140px;
+    font-size: 18px  !important;
+    font-weight: normal  !important;
+    padding: 8px 0px 8px 0px  !important;
+    margin: 3px;
 }
 .boxb a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .boxc {
-	text-align: right;
-	display: inline-block;
-	border: 1px solid #aaa;
-	vertical-align: top;
-	width: 190px;
-	height: 40px;
-	font-size: 18px;
-	font-weight: normal;
-	color: #333;
-	padding: 4px 10px 10px 0px;
-	margin: 5px;
-	text-shadow: 1px 1px 0px #fff;
-	cursor: pointer;
-	border-radius: 4px;
-	box-shadow: 2px 2px 2px #ccf;
-	background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
+    text-align: right;
+    display: inline-block;
+    border: 1px solid #aaa;
+    vertical-align: top;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    padding: 4px 10px 10px 0px;
+    margin: 5px;
+    text-shadow: 1px 1px 0px #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #ccf;
+    background: linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
 }
 #index .boxc {
-	background: url(images/style/icon-geometry.gif) no-repeat left top, linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
+    background: url(images/style/icon-geometry.gif) no-repeat left top, linear-gradient(to bottom, #feffff 0%, #d6dbff 100%);
 }
 .boxc:hover {
-	background: linear-gradient(to bottom, #fffce7 0%, #fdfd9f 100%);
+    background: linear-gradient(to bottom, #fffce7 0%, #fdfd9f 100%);
 }
 .boxc a {
-	text-decoration: none;
+    text-decoration: none;
 }
 .boxsay {
-	text-align: left;
-	display: inline-block;
-	vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
 font: italic 15px/23px Verdana, sans-serif; 
-	
+    
 border-radius: 5px;
-	height: 120px;
+    height: 120px;
 
 }
 #none {
 }
 #data {
-	background: url(images/style/icon-data.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-data.gif) no-repeat left top;
+    height: 50px;
 }
 #geom {
-	background: url(images/style/icon-geometry.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-geometry.gif) no-repeat left top;
+    height: 50px;
 }
 #nmbr {
-	background: url(images/style/icon-numbers.gif) no-repeat left top;
-	height: 50px;
-	margin: 0 0 0 10px;
+    background: url(images/style/icon-numbers.gif) no-repeat left top;
+    height: 50px;
+    margin: 0 0 0 10px;
 }
 #puzz {
-	background: url(images/style/icon-puzzles.gif) no-repeat left top;
-	height: 50px;
-	margin: 0 0 0 20px;
+    background: url(images/style/icon-puzzles.gif) no-repeat left top;
+    height: 50px;
+    margin: 0 0 0 20px;
 }
 #mony {
-	background: url(images/style/icon-money.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-money.gif) no-repeat left top;
+    height: 50px;
 }
 
 #algb {
-	background: url(images/style/icon-algebra.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-algebra.gif) no-repeat left top;
+    height: 50px;
 }
 #calc {
-	background: url(images/style/icon-calculus.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-calculus.gif) no-repeat left top;
+    height: 50px;
 }
 #phys {
-	background: url(images/style/icon-physics.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-physics.gif) no-repeat left top;
+    height: 50px;
 }
 
 #game {
-	background: url(images/style/icon-games.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-games.gif) no-repeat left top;
+    height: 50px;
 }
 #dict {
-	background: url(images/style/icon-dictionary.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-dictionary.gif) no-repeat left top;
+    height: 50px;
 }
 #work {
-	background: url(images/style/icon-worksheet.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-worksheet.gif) no-repeat left top;
+    height: 50px;
 }
 
 #meas {
-	background: url(images/style/icon-measure.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-measure.gif) no-repeat left top;
+    height: 50px;
 }
 #actv {
-	background: url(images/style/icon-activity.gif) no-repeat left top;
-	height: 50px;
+    background: url(images/style/icon-activity.gif) no-repeat left top;
+    height: 50px;
 }
 </style>
 <!-- #EndEditable -->
@@ -148,9 +147,9 @@ border-radius: 5px;
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="HandheldFriendly" content="true">
 <meta name="referrer" content="always">
-	<link rel="preload" href="images/style/font-champ-bold.ttf" as="font" type="font/ttf" crossorigin="">
-	<link rel="preload" href="style4.css" as="style">
-	<link rel="preload" href="main4.js" as="script">
+    <link rel="preload" href="images/style/font-champ-bold.ttf" as="font" type="font/ttf" crossorigin="">
+    <link rel="preload" href="style4.css" as="style">
+    <link rel="preload" href="main4.js" as="script">
 <link rel="stylesheet" href="style4.css">
 <script src="main4.js" defer="defer"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -165,29 +164,29 @@ border-radius: 5px;
 
 <body id="bodybg">
 
-	<div id="stt"></div>
-	<div id="adTop"></div>
-	<header>
-	<div id="hdr"></div>
-	<div id="tran"></div>
-	<div id="adHide"></div>
-	<div id="cookOK"></div>
-	</header>
-	
-	<div class="mid">
+    <div id="stt"></div>
+    <div id="adTop"></div>
+    <header>
+    <div id="hdr"></div>
+    <div id="tran"></div>
+    <div id="adHide"></div>
+    <div id="cookOK"></div>
+    </header>
+    
+    <div class="mid">
 
-	<nav>
-		<div id="menuWide" class="menu"></div>
-		<div id="logo"><a href="worksheets/index.html"><img src="images/style/logo.svg" alt="Math is Fun"></a></div>
+    <nav>
+        <div id="menuWide" class="menu"></div>
+        <div id="logo"><a href="worksheets/index.html"><img src="images/style/logo.svg" alt="Math is Fun"></a></div>
 
-		<div id="search" role="search"> </div>
-		<div id="linkto"></div>
-	
-		<div id="menuSlim" class="menu"></div>
-		<div id="menuTiny" class="menu"></div>
-	</nav>
-	
-	<div id="extra"></div>
+        <div id="search" role="search"> </div>
+        <div id="linkto"></div>
+    
+        <div id="menuSlim" class="menu"></div>
+        <div id="menuTiny" class="menu"></div>
+    </nav>
+    
+    <div id="extra"></div>
 
 <article id="content" role="main">
 
@@ -246,8 +245,8 @@ border-radius: 5px;
       <div style="text-align:center; width:100%;">
 Messages from visitors:<br>
 <div class="words" style="width:380px; height:120px; text-align:left;
-	 vertical-align: top; font: italic 15px/23px Verdana, sans-serif; 
-	margin: 0 auto 10px auto; overflow: hidden; text-overflow: ellipsis;">
+     vertical-align: top; font: italic 15px/23px Verdana, sans-serif; 
+    margin: 0 auto 10px auto; overflow: hidden; text-overflow: ellipsis;">
 <span id="textrotator">&nbsp;</span>
 </div>
 <script>
@@ -391,6 +390,4 @@ See <a href="worksheets/index.html">Recent Additions</a></p>
 </body>
 </html>
 
-    ]]>
-  </Content>
-</Module>
+
