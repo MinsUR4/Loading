@@ -1,56 +1,66 @@
 <Module>
-  <ModulePrefs title="Snow Rider 3D"/>
-  <Content type="html">
-    <![CDATA[
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <title>Math is Fun</title>
-          <link rel="icon" type="image/x-icon" href="links/login/assets/images/favicon.png">
-          <meta name="description" content="Math explained in easy language, plus puzzles, games, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.">
-          <link rel="canonical" href="worksheets/index.html">
-          <!-- CSS styles -->
-          <link rel="stylesheet" href="style4.css">
-          <!-- JavaScript -->
-          <script src="main4.js" defer="defer"></script>
-          <!-- Google Analytics -->
-          <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-29771508-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-29771508-1');
-          </script>
-        </head>
-        <body id="bodybg">
-          <div id="stt"></div>
-          <div id="adTop"></div>
-          <header>
-            <div id="hdr"></div>
-            <div id="tran"></div>
-            <div id="adHide"></div>
-            <div id="cookOK"></div>
-          </header>
-          <div class="mid">
-            <nav>
-              <div id="menuWide" class="menu"></div>
-              <div id="logo"><a href="worksheets/index.html"><img src="images/style/logo.svg" alt="Math is Fun"></a></div>
-              <div id="search" role="search"> </div>
-              <div id="linkto"></div>
-              <div id="menuSlim" class="menu"></div>
-              <div id="menuTiny" class="menu"></div>
-            </nav>
-            <div id="extra"></div>
-            <article id="content" role="main">
-              <!-- Place provided HTML content here -->
-              <!-- ... -->
-            </article>
-            <div id="adend" class="centerfull noprint"></div>
-            <footer id="footer" class="centerfull noprint"></footer>
-            <div id="copyrt">Copyright © 2021 MathsIsFun.com</div>
-          </div>
-        </body>
-      </html>
-    ]]>
-  </Content>
+    <ModulePrefs title="Snow Rider 3D"/>
+    <Content type="html">
+        <![CDATA[
+        <style>
+            /* Loader styles */
+            .loader-wrapper {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.7);
+                z-index: 9999;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .loader {
+                border: 16px solid #f3f3f3; /* Light grey */
+                border-top: 16px solid #3498db; /* Blue */
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+                animation: spin 2s linear infinite;
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            /* Hide the loader when content is loaded */
+            .loaded .loader-wrapper {
+                display: none;
+            }
+        </style>
+
+        <!-- Loader HTML -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Your content -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/style.css">
+        <script src="https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/UnityProgress.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/UnityLoader.js"></script>
+        <script>
+            var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/SnowRider3D-gd-1.json", {
+                onProgress: UnityProgress,
+                Module: {
+                    onRuntimeInitialized: function() {
+                        UnityProgress(gameInstance, "complete");
+                        document.body.classList.add('loaded'); // Add the 'loaded' class to body when content is loaded
+                    }
+                }
+            });
+        </script>
+        <div class="webgl-content">
+            <div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+        </div>
+        <script src="https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/addc4348-16c2-4645-9dff-f99b962e39ef%2Fscr.js"></script>
+        ]]>
+    </Content>
 </Module>
