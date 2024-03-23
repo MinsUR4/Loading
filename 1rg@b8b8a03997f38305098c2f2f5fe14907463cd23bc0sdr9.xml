@@ -1,0 +1,56 @@
+<Module>
+  <ModulePrefs title="Snow Rider 3D"/>
+  <Content type="html">
+    <![CDATA[
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <title>Math is Fun</title>
+          <link rel="icon" type="image/x-icon" href="links/login/assets/images/favicon.png">
+          <meta name="description" content="Math explained in easy language, plus puzzles, games, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.">
+          <link rel="canonical" href="worksheets/index.html">
+          <!-- CSS styles -->
+          <link rel="stylesheet" href="style4.css">
+          <!-- JavaScript -->
+          <script src="main4.js" defer="defer"></script>
+          <!-- Google Analytics -->
+          <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-29771508-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-29771508-1');
+          </script>
+        </head>
+        <body id="bodybg">
+          <div id="stt"></div>
+          <div id="adTop"></div>
+          <header>
+            <div id="hdr"></div>
+            <div id="tran"></div>
+            <div id="adHide"></div>
+            <div id="cookOK"></div>
+          </header>
+          <div class="mid">
+            <nav>
+              <div id="menuWide" class="menu"></div>
+              <div id="logo"><a href="worksheets/index.html"><img src="images/style/logo.svg" alt="Math is Fun"></a></div>
+              <div id="search" role="search"> </div>
+              <div id="linkto"></div>
+              <div id="menuSlim" class="menu"></div>
+              <div id="menuTiny" class="menu"></div>
+            </nav>
+            <div id="extra"></div>
+            <article id="content" role="main">
+              <!-- Place provided HTML content here -->
+              <!-- ... -->
+            </article>
+            <div id="adend" class="centerfull noprint"></div>
+            <footer id="footer" class="centerfull noprint"></footer>
+            <div id="copyrt">Copyright © 2021 MathsIsFun.com</div>
+          </div>
+        </body>
+      </html>
+    ]]>
+  </Content>
+</Module>
