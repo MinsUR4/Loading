@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-  <ModulePrefs title="Math is Fun" />
-  <Content type="html">
-    <![CDATA[
-<iframe src="https://addition.particle.es" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>
-    ]]>
-  </Content>
-</Module>
